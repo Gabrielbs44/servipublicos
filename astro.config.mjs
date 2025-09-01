@@ -10,6 +10,8 @@ const isProd = process.env.NODE_ENV === "production";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: "https://creativetimofficial.github.io",
+  site: "https://servipublicosbarona-hmt24pagc-gabriel-esteban-s-projects.vercel.app",
   base: "/astro-launch-ui/",
 });
+
+
